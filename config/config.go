@@ -50,7 +50,7 @@ type Configuration struct {
 	GoofyMode      bool               `yaml:"goofy_mode"`
 	Profile        string             `yaml:"profile,omitempty"`
 
-	// DISABLED, see https://github.com/readium/readium-lcp-server/issues/109
+	// DISABLED, see https://github.com/fubaydullaev/readium-lcp-server/issues/109
 	//AES256_CBC_OR_GCM string             `yaml:"aes256_cbc_or_gcm,omitempty"`
 }
 

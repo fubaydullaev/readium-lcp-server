@@ -19,10 +19,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/readium/readium-lcp-server/crypto"
-	"github.com/readium/readium-lcp-server/epub"
-	apilcp "github.com/readium/readium-lcp-server/lcpserver/api"
-	"github.com/readium/readium-lcp-server/pack"
+	"github.com/fubaydullaev/readium-lcp-server/crypto"
+	"github.com/fubaydullaev/readium-lcp-server/epub"
+	apilcp "github.com/fubaydullaev/readium-lcp-server/lcpserver/api"
+	"github.com/fubaydullaev/readium-lcp-server/pack"
 	uuid "github.com/satori/go.uuid"
 )
 

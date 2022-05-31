@@ -8,7 +8,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/readium/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/config"
 )
 
 // enter here an existing license id

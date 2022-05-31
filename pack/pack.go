@@ -12,9 +12,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/readium/readium-lcp-server/crypto"
-	"github.com/readium/readium-lcp-server/epub"
-	"github.com/readium/readium-lcp-server/xmlenc"
+	"github.com/fubaydullaev/readium-lcp-server/crypto"
+	"github.com/fubaydullaev/readium-lcp-server/epub"
+	"github.com/fubaydullaev/readium-lcp-server/xmlenc"
 )
 
 // PackageReader is an interface

@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	apilcp "github.com/readium/readium-lcp-server/lcpserver/api"
-	"github.com/readium/readium-lcp-server/storage"
+	apilcp "github.com/fubaydullaev/readium-lcp-server/lcpserver/api"
+	"github.com/fubaydullaev/readium-lcp-server/storage"
 )
 
 // StorePublication stores an encrypted file into its definitive storage.

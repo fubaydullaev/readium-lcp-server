@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/readium/readium-lcp-server/rwpm"
+	"github.com/fubaydullaev/readium-lcp-server/rwpm"
 )
 
 // TestMapW3CPublication tests the mapping of a W3C manifest to a Readium manifest

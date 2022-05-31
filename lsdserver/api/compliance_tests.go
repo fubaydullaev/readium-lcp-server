@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/readium/readium-lcp-server/logging"
-	"github.com/readium/readium-lcp-server/problem"
+	"github.com/fubaydullaev/readium-lcp-server/logging"
+	"github.com/fubaydullaev/readium-lcp-server/problem"
 )
 
 var complianceTestNumber string

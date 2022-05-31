@@ -29,9 +29,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/readium/readium-lcp-server/api"
-	"github.com/readium/readium-lcp-server/frontend/webrepository"
-	"github.com/readium/readium-lcp-server/problem"
+	"github.com/fubaydullaev/readium-lcp-server/api"
+	"github.com/fubaydullaev/readium-lcp-server/frontend/webrepository"
+	"github.com/fubaydullaev/readium-lcp-server/problem"
 )
 
 // GetRepositoryMasterFiles returns a list of repository masterfiles

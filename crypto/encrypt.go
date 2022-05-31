@@ -29,7 +29,7 @@ import (
 	"crypto/aes"
 	"io"
 )
-//"github.com/readium/readium-lcp-server/config"
+//"github.com/fubaydullaev/readium-lcp-server/config"
 // FOR: config.Config.AES256_CBC_OR_GCM
 
 type Encrypter interface {
@@ -46,7 +46,7 @@ func NewAESEncrypter_PUBLICATION_RESOURCES() Encrypter {
 	
 	return NewAESCBCEncrypter()
 
-	// DISABLED, see https://github.com/readium/readium-lcp-server/issues/109
+	// DISABLED, see https://github.com/fubaydullaev/readium-lcp-server/issues/109
 	// if config.Config.AES256_CBC_OR_GCM == "GCM" {
 	// 	return NewAESGCMEncrypter()
 	// } else { // default to CBC

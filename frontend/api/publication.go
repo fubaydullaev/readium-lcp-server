@@ -12,9 +12,9 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/readium/readium-lcp-server/api"
-	"github.com/readium/readium-lcp-server/frontend/webpublication"
-	"github.com/readium/readium-lcp-server/problem"
+	"github.com/fubaydullaev/readium-lcp-server/api"
+	"github.com/fubaydullaev/readium-lcp-server/frontend/webpublication"
+	"github.com/fubaydullaev/readium-lcp-server/problem"
 )
 
 // GetPublications returns a list of publications

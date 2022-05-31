@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/readium/readium-lcp-server/config"
-	"github.com/readium/readium-lcp-server/status"
+	"github.com/fubaydullaev/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/status"
 )
 
 var NotFound = errors.New("Event not found")

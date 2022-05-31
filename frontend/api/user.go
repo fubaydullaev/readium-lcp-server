@@ -31,11 +31,11 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/readium/readium-lcp-server/api"
-	"github.com/readium/readium-lcp-server/frontend/webpurchase"
-	"github.com/readium/readium-lcp-server/frontend/webuser"
-	apilsd "github.com/readium/readium-lcp-server/lsdserver/api"
-	"github.com/readium/readium-lcp-server/problem"
+	"github.com/fubaydullaev/readium-lcp-server/api"
+	"github.com/fubaydullaev/readium-lcp-server/frontend/webpurchase"
+	"github.com/fubaydullaev/readium-lcp-server/frontend/webuser"
+	apilsd "github.com/fubaydullaev/readium-lcp-server/lsdserver/api"
+	"github.com/fubaydullaev/readium-lcp-server/problem"
 )
 
 //GetUsers returns a list of users

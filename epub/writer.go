@@ -29,7 +29,7 @@ import (
 	"archive/zip"
 	"io"
 
-	"github.com/readium/readium-lcp-server/xmlenc"
+	"github.com/fubaydullaev/readium-lcp-server/xmlenc"
 )
 
 type Writer struct {

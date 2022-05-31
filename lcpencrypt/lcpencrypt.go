@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/readium/readium-lcp-server/encrypt"
+	"github.com/fubaydullaev/readium-lcp-server/encrypt"
 )
 
 // showHelpAndExit displays some help and exits.

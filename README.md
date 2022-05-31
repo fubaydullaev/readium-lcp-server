@@ -105,7 +105,7 @@ If you want to use the master branch:
 # from the go workspace
 cd $GOPATH
 # fetch, build and install the different packages and their dependencies
-go get -v github.com/readium/readium-lcp-server/...
+go get -v github.com/fubaydullaev/readium-lcp-server/...
 ```
 
 Warning: Go has a funny 3-dots syntax, and you really have to type "/..." at the end of the line. 
@@ -122,16 +122,16 @@ Alternatively, if you want to use a feature branch:
 # from the go workspace
 cd $GOPATH
 # clone the repo, selecting the feature/F branch
-git clone -b <feature-branch> https://github.com/readium/readium-lcp-server.git src/github.com/readium/readium-lcp-server
+git clone -b <feature-branch> https://github.com/fubaydullaev/readium-lcp-server.git src/github.com/fubaydullaev/readium-lcp-server
 # then fetch, build and install the different packages and their dependencies
-go get -v github.com/readium/readium-lcp-server/...
+go get -v github.com/fubaydullaev/readium-lcp-server/...
 ````
 
 You may prefer to install only some of the executables. 
 In such a case, the "go get" command should be called once for each package, e.g. for the lcpserver from the master branch:
 ```sh
 cd $GOPATH
-go get -v github.com/readium/readium-lcp-server/lcpserver
+go get -v github.com/fubaydullaev/readium-lcp-server/lcpserver
 ```
 
 To install properly the Test Frontend Server, you must also install several npm packages.
@@ -140,7 +140,7 @@ Note: use a modern version of npm, e.g. npm 6.12.0 or higher.
 
 To install the npm packages, type:
 ```sh
-cd $GOPATH/src/github.com/readium/readium-lcp-server/frontend/manage
+cd $GOPATH/src/github.com/fubaydullaev/readium-lcp-server/frontend/manage
 npm install
 ````
 
@@ -228,7 +228,7 @@ If `mode` value is `s3`, the following parameters are expected:
 - `bucket` (required): name of the target S3 bucket.
 - `region` (optional): name of the target AWS region.
 
-The S3 region and client credentials default to a chain of credential providers, searched in environment variables and shared files. See [Setting up an S3 Storage](https://github.com/readium/readium-lcp-server/wiki/Setting-up-an-S3-storage) for details. 
+The S3 region and client credentials default to a chain of credential providers, searched in environment variables and shared files. See [Setting up an S3 Storage](https://github.com/fubaydullaev/readium-lcp-server/wiki/Setting-up-an-S3-storage) for details. 
 Alternatively (but this is not recommended!), credentials can be stored in clear in the configuration file:
 - `access_id`: value of the AWS access key id.
 - `secret`: value of the AWS secret access key.
@@ -355,7 +355,7 @@ lcp_update_auth:
 - `database`: the URI formatted connection string to the database, `sqlite3://file:frontend.sqlite?cache=shared&mode=rwc` by default. `mysql://login:password@/dbname?parseTime=true` if your using MySQL.
 - `master_repository`: repository where the uploaded EPUB files are stored before encryption. 
 - `encrypted_repository`: repository where the encrypted EPUB files are stored after upload. The LCP server must have access to the path declared here, as it will move each encrypted file to its final storage folder on notification of encryption from the Frontend Server. 
-- `directory`: the directory containing the client web app; by default $GOPATH/src/github.com/readium/readium-lcp-server/frontend/manage.
+- `directory`: the directory containing the client web app; by default $GOPATH/src/github.com/fubaydullaev/readium-lcp-server/frontend/manage.
 - `provider_uri`: provider uri, which will be inserted in all licenses produced via this test frontend.
 - `right_print`: allowed number of printed pages, which will be inserted in all licenses produced via this test frontend.
 - `right_copy`: allowed number of copied characters, which will be inserted in all licenses produced via this test frontend.
@@ -414,7 +414,7 @@ lsd_notify_auth:
 
 NOTE: the localization file names (ex: 'en-US.json, de-DE.json') must match the set of supported localization languages.
 
-NOTE: a CBC / GCM configurable property has been DISABLED, see https://github.com/readium/readium-lcp-server/issues/109
+NOTE: a CBC / GCM configurable property has been DISABLED, see https://github.com/fubaydullaev/readium-lcp-server/issues/109
 "aes256_cbc_or_gcm": either "GCM" or "CBC" (which is the default value). This is used only for encrypting publication resources, not the content key, not the user key check, not the LCP license fields.
 
 Execution
@@ -431,4 +431,4 @@ NOTE: even if you deploy the server locally, using 127.0.0.1 is not recommended,
 
 Contributing
 ============
-Please make a Pull Request with tests at github.com/readium/readium-lcp-server
+Please make a Pull Request with tests at github.com/fubaydullaev/readium-lcp-server

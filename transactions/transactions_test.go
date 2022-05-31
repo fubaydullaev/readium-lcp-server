@@ -12,8 +12,8 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/readium/readium-lcp-server/config"
-	"github.com/readium/readium-lcp-server/status"
+	"github.com/fubaydullaev/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/status"
 )
 
 //TestTransactionCreation opens database and tries to add an event to table 'event'

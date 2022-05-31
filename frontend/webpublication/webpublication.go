@@ -15,9 +15,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/readium/readium-lcp-server/config"
-	"github.com/readium/readium-lcp-server/encrypt"
-	apilcp "github.com/readium/readium-lcp-server/lcpserver/api"
+	"github.com/fubaydullaev/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/encrypt"
+	apilcp "github.com/fubaydullaev/readium-lcp-server/lcpserver/api"
 )
 
 // Publication status

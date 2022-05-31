@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/readium/readium-lcp-server/rwpm"
+	"github.com/fubaydullaev/readium-lcp-server/rwpm"
 )
 
 func TestOpenRPFackage(t *testing.T) {

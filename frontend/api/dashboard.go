@@ -29,9 +29,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/readium/readium-lcp-server/api"
-	"github.com/readium/readium-lcp-server/frontend/webpublication"
-	"github.com/readium/readium-lcp-server/problem"
+	"github.com/fubaydullaev/readium-lcp-server/api"
+	"github.com/fubaydullaev/readium-lcp-server/frontend/webpublication"
+	"github.com/fubaydullaev/readium-lcp-server/problem"
 )
 
 // GetDashboardInfos searches a publication by its uuid

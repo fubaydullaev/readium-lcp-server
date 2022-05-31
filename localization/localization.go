@@ -30,7 +30,7 @@ import (
 
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 
-	"github.com/readium/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/config"
 	"golang.org/x/text/language"
 )
 

@@ -20,13 +20,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/readium/readium-lcp-server/api"
-	"github.com/readium/readium-lcp-server/config"
-	"github.com/readium/readium-lcp-server/epub"
-	"github.com/readium/readium-lcp-server/index"
-	"github.com/readium/readium-lcp-server/license"
-	"github.com/readium/readium-lcp-server/problem"
-	"github.com/readium/readium-lcp-server/storage"
+	"github.com/fubaydullaev/readium-lcp-server/api"
+	"github.com/fubaydullaev/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/epub"
+	"github.com/fubaydullaev/readium-lcp-server/index"
+	"github.com/fubaydullaev/readium-lcp-server/license"
+	"github.com/fubaydullaev/readium-lcp-server/problem"
+	"github.com/fubaydullaev/readium-lcp-server/storage"
 )
 
 // ErrMandatoryInfoMissing sets an error message returned to the caller

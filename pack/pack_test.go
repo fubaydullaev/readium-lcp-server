@@ -11,9 +11,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/readium/readium-lcp-server/crypto"
-	"github.com/readium/readium-lcp-server/epub"
-	"github.com/readium/readium-lcp-server/xmlenc"
+	"github.com/fubaydullaev/readium-lcp-server/crypto"
+	"github.com/fubaydullaev/readium-lcp-server/epub"
+	"github.com/fubaydullaev/readium-lcp-server/xmlenc"
 )
 
 func TestPacking(t *testing.T) {

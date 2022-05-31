@@ -10,7 +10,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/readium/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/config"
 )
 
 // ErrNotFound error trown when repository is not found

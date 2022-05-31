@@ -13,10 +13,10 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/readium/readium-lcp-server/api"
-	"github.com/readium/readium-lcp-server/frontend/webpurchase"
-	"github.com/readium/readium-lcp-server/license"
-	"github.com/readium/readium-lcp-server/problem"
+	"github.com/fubaydullaev/readium-lcp-server/api"
+	"github.com/fubaydullaev/readium-lcp-server/frontend/webpurchase"
+	"github.com/fubaydullaev/readium-lcp-server/license"
+	"github.com/fubaydullaev/readium-lcp-server/problem"
 
 	"github.com/Machiel/slugify"
 )

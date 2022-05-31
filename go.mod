@@ -1,4 +1,4 @@
-module github.com/readium/readium-lcp-server
+module github.com/fubaydullaev/readium-lcp-server
 
 go 1.13
 
@@ -18,8 +18,7 @@ require (
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
 	github.com/technoweenie/grohl v0.0.0-20140924204239-f4613feb389e
 	github.com/urfave/negroni v1.0.0
-	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550 // indirect
 	golang.org/x/net v0.0.0-20200301022130-244492dfa37a
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.7
 	gopkg.in/yaml.v2 v2.3.0
 )

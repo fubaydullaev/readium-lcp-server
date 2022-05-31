@@ -29,7 +29,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/readium/readium-lcp-server/config"
+	"github.com/fubaydullaev/readium-lcp-server/config"
 )
 
 // Publication status

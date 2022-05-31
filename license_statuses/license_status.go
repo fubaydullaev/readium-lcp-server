@@ -7,7 +7,7 @@ package licensestatuses
 import (
 	"time"
 
-	"github.com/readium/readium-lcp-server/transactions"
+	"github.com/fubaydullaev/readium-lcp-server/transactions"
 )
 
 // Updated represents license and status document timestamps
